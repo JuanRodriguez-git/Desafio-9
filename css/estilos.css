@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----HEADER----*/
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+main{
+    background-color: rgb(232, 239, 239);    
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.itemMenu {
+    padding: 25px;
+    color: white;
+}
+
+/*---MAIN----*/
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: crimson;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*----PRODUCTOS----*/
+.contenedorCards {
+    margin: 30px;
+}
+
+.producto {
+    height: 180px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    margin: 10px;
+    box-shadow: 10px 13px 5px -4px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 10px 13px 5px -4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 13px 5px -4px rgba(0,0,0,0.23);
+    justify-content: center;
+}
+
+.producto img {
+    height: 100px;
+    border: 3px solid black;
+    float: right;
+}
+.producto h3 {
+    margin-top: 0;
+    color: black;
+}
+
+p{
+    color: black;
+    background-color: white;
+    display: inline-block;
+}
+
+/*----CARRITO----*/
+.cart {
+    border: 2px solid black;
+}
+
+.cart h2{
+    text-align: center;
+    background-color:  rgb(168, 168, 168);
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    margin-bottom: 5px;
+}
+
+.cart div{
+    text-align: center;
+}
+
+.cart button{
+    padding: 5px;
+}
+
+.add-to-cart-btn {
+    background-color: white;
+    /* border-radius: 10px; */
+    color: grey;
+    border: 2px solid grey;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.add-to-cart-btn:hover{
+    background-color: grey;
+    color: white;
+    
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(168, 168, 168);
+    color: white;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+
+/*--FOOTER--*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.carousel-inner img {
+    width: 300px; 
+    height: 300px;
+    object-fit: cover;
+    border: solid black 5px; 
+}
+
+.juegos{
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#halflife{
+    background-image: url(/maqueta/img/half\ life\ banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#undertale{
+    background-image: url(/maqueta/img/Undertale-logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#undertalet{
+    color: red;
+}
+
+#hollowknight{
+    background-image: url(/maqueta/img/hw\ banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hwt{
+    color: darkmagenta;
+}
+
+#cuphead{
+    background-image: url(/maqueta/img/cuphead\ banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+i{
+    font-size: 70px;
+    padding: 10px;
+}
