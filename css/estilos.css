@@ -156,14 +156,14 @@ footer{
 }
 
 #halflife{
-    background-image: url(/maqueta/img/half\ life\ banner.jpg);
+    background-image: url(../img/half\ life\ banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #undertale{
-    background-image: url(/maqueta/img/Undertale-logo.jpg);
+    background-image: url(../img/Undertale-logo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ footer{
 }
 
 #hollowknight{
-    background-image: url(/maqueta/img/hw\ banner.jpg);
+    background-image: url(../img/hw\ banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ footer{
 }
 
 #cuphead{
-    background-image: url(/maqueta/img/cuphead\ banner.png);
+    background-image: url(../img/cuphead\ banner.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
